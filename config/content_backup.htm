@@ -14,7 +14,9 @@
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
 <h1>Solvespace</h1>
-<h2>solvespace操作</h2>
+<h2>編譯</h2>
+<h2>繪圖示範</h2>
+<h4>solvespace操作</h4>
 <h4 class="title style-scope ytd-video-primary-info-renderer"><yt-formatted-string class="style-scope ytd-video-primary-info-renderer" force-default-style="">Solvespace Tutorial 6: Christmas Tree (BONUS)</yt-formatted-string></h4>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/sil1rz_hLUM" width="560"></iframe></p>
 <h1>V-Rep</h1>
@@ -25,9 +27,16 @@
 <p>video-----&gt;New vidio  匯入新片</p>
 <p>指令:</p>
 <p>ctel+3 : 在影片該處設為字幕出現片段頭部</p>
+<p><img caption="false" height="428" src="/images/c3.jpg" width="560"/></p>
 <p><span>ctel+4 : 在影片該處設為字幕出現片段尾部</span></p>
-<p><span></span></p>
+<p><span><img alt="" height="428" src="/images/c4.jpg" width="560"/></span></p>
 <p><span>匯出時依照下面指令轉成srt檔(export)</span></p>
+<p><span><img alt="" height="317" src="/images/SRT.jpg" width="560"/></span></p>
+<p><span><img alt="" height="333" src="/images/EX.jpg" width="560"/></span></p>
+<p><span>Y:</span></p>
+<p>cd tmp</p>
 <p><span>ffmpeg -i input.mp4 -vf subtitles=input.srt output.mp4</span></p>
 <p>該指令為把原檔( input.mp4)加入字幕(input.srt) ，輸出成output的檔案名</p>
+<p></p>
+<p>記得把影片檔和字幕檔都放在Y的tmp下</p>
 <p></p>
