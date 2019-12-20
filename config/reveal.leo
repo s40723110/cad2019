@@ -27,6 +27,9 @@
 <v t="leo.20191212223245.1"><vh>快捷鍵</vh>
 <v t="leo.20191212223245.2"><vh>投影片快捷鍵</vh></v>
 </v>
+<v t="leo.20191220112215.1"><vh>快捷鍵</vh>
+<v t="leo.20191220112215.2"><vh>投影片快捷鍵</vh></v>
+</v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
 <v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
@@ -336,5 +339,19 @@ vertical: body pane on the botton</t>
 ###[NX practice](https://www.youtube.com/watch?v=m0J-3-xNGoE)
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/m0J-3-xNGoE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20191220112215.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191220112215.2">## NX12
+
+###[NX Stress Analysis](https://www.youtube.com/watch?v=fZe79_imPUQ)
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/watch?v=fZe79_imPUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
