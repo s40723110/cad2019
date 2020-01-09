@@ -371,7 +371,7 @@ vertical: body pane on the botton</t>
 
 ###[NX practice2](https://www.youtube.com/watch?v=WVzp873mNtA&amp;t=18s)
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/m0J-3-xNGoE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/WVzp873mNtA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200109194518.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
