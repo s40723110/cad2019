@@ -125,7 +125,7 @@ $$I = \int \rho R^{2} dV$$
    請注意, @others 不可以內縮
 @others
     &lt;/script&gt;
-&lt;/section&gt;
+    &lt;/section&gt;
 
 
 
@@ -143,7 +143,7 @@ import threading
 def domake():
     
     path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu" --&gt;
+    ubuntu = "../Ubuntu" 
     
     # create obj path
     
