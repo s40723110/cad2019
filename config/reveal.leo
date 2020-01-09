@@ -27,8 +27,17 @@
 <v t="leo.20191212223245.1"><vh>快捷鍵</vh>
 <v t="leo.20191212223245.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20191220112215.1"><vh>快捷鍵</vh>
-<v t="leo.20191220112215.2"><vh>投影片快捷鍵</vh></v>
+<v t="leo.20200109192924.1"><vh>快捷鍵</vh>
+<v t="leo.20200109192924.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200109194518.1"><vh>快捷鍵</vh>
+<v t="leo.20200109194518.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200109194810.1"><vh>快捷鍵</vh>
+<v t="leo.20200109194810.2"><vh>投影片快捷鍵</vh></v>
+</v>
+<v t="leo.20200109195025.1"><vh>快捷鍵</vh>
+<v t="leo.20200109195025.2"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
 <v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
@@ -80,30 +89,31 @@
 </t>
 <t tx="leo.20180902120523.13">&lt;section&gt;
 @others
-&lt;/section&gt;
+&lt;/section&gt; 
 
 </t>
-<t tx="leo.20180902120523.14">&lt;section data-markdown&gt;
+<t tx="leo.20180902120523.14">&lt;!--  &lt;section data-markdown&gt; 
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
+請注意, @others 不可以內縮
 @others
     &lt;/script&gt;
-&lt;/section&gt;
+&lt;/section&gt; 
+
 
 
 
 						
 </t>
-<t tx="leo.20180902120523.15"># 數學符號與方程式
+<t tx="leo.20180902120523.15"> # 數學符號與方程式
 
 Inline math equations go in like so: $\omega = d\phi / dt$. Display
 math should get its own line and be put in in double-dollarsigns:
 
-$$I = \int \rho R^{2} dV$$
+$$I = \int \rho R^{2} dV$$ 
 </t>
-<t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
+<t tx="leo.20180902120523.16">&lt;!-- &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
+   請注意, @others 不可以內縮
 @others
     &lt;/script&gt;
 &lt;/section&gt;
@@ -113,7 +123,7 @@ $$I = \int \rho R^{2} dV$$
 						
 </t>
 <t tx="leo.20180902120523.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
+以下利用 Markdown 格式展示 Python 程式碼: 
 ```
 @language python
 # use threading and subprocess to threading the make process
@@ -124,7 +134,7 @@ import threading
 def domake():
     
     path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
+    ubuntu = "../Ubuntu" --&gt;
     
     # create obj path
     
@@ -140,11 +150,11 @@ make = threading.Thread(target=domake)
 make.start()
 ```
 </t>
-<t tx="leo.20180902120523.18">&lt;section data-markdown&gt;
+<t tx="leo.20180902120523.18">&lt;!-- &lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
-&lt;/section&gt;
+&lt;/section&gt; 
 
 
 						
@@ -153,7 +163,7 @@ make.start()
 
 ### 導入影片 template
 
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; --&gt;
 </t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
@@ -339,7 +349,7 @@ vertical: body pane on the botton</t>
 ###[NX practice](https://www.youtube.com/watch?v=m0J-3-xNGoE)
 
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/m0J-3-xNGoE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
-<t tx="leo.20191220112215.1">&lt;section data-markdown&gt;
+<t tx="leo.20200109192924.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -348,10 +358,52 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20191220112215.2">## NX12
+<t tx="leo.20200109192924.2">## NX12
 
-###[NX Stress Analysis](https://www.youtube.com/watch?v=fZe79_imPUQ)
+###[NX practice2](https://www.youtube.com/watch?v=WVzp873mNtA&amp;t=18s)
 
-&lt;iframe width="560" height="315" src="https://www.youtube.com/watch?v=fZe79_imPUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/m0J-3-xNGoE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200109194518.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109194518.2">## NX12
+
+###[NX Stress Analysis practice](https://www.youtube.com/watch?v=fZe79_imPUQ)
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/fZe79_imPUQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200109194810.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109194810.2">## NX12
+
+###[Vrep practice(W16)](https://www.youtube.com/watch?v=n9lwilevRu8)
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/n9lwilevRu8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200109195025.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109195025.2">## NX12
+
+###[Vrep practice(W17)](https://www.youtube.com/watch?v=i4RSGyaLB5s)
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/i4RSGyaLB5s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
