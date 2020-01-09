@@ -21,6 +21,9 @@
 <v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
+<v t="leo.20200109235242.1"><vh>快捷鍵</vh>
+<v t="leo.20200109235242.2"><vh>投影片快捷鍵</vh></v>
+</v>
 <v t="leo.20200109201612.1"><vh>快捷鍵</vh>
 <v t="leo.20200109201612.2"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -466,6 +469,23 @@ vertical: body pane on the botton</t>
      1995年11月 - SolidWorks帶來了新的東西-「3D建模」。因此，3D CAD成為1990年代的焦點。在短短幾個月內，SolidWorks改變了工程師將「創造變為現實」的方式。
     1997年 - SolidWorks實在令人印象深刻，被達索系統公司（DassaultSystèmes）收購
          當SolidWorks於1995年首次發佈時，它確實改變了遊戲規則，有了它， 軟件的成本降低，所需的培訓時間也降低了。不用說，SolidWorks徹底改變了每個工程師的桌面。自成立以來，SolidWorks已有了26個版本，每個版本都提供更多功能和增強功能。
+
+</t>
+<t tx="leo.20200109235242.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200109235242.2">## SSH
+
+###[SSH setting](https://www.youtube.com/watch?v=MgJnce9_s4U)
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/MgJnce9_s4U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+
 
 </t>
 </tnodes>
